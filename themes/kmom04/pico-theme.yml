@@ -1,4 +1,4 @@
-        api_version: 3                  # Use Pico's latest API version for themes
+api_version: 3                  # Use Pico's latest API version for themes
 
 
 meta:                           # Register meta headers used by this theme
@@ -6,7 +6,8 @@ meta:                           # Register meta headers used by this theme
     Tagline: tagline            # Your website's tag line, shown right below your site title (supports Markdown)
     Social: social              # A list of social icons that will be shown in your website's footer;
                                 #     You must specify a "title", "url" and "icon" per entry
-
+    Socials: socials            # A list of socials icons that will be shown in your website's footer;
+                                #     You must specify a "title", "url" and "icon" per entry
 
 twig_config:                    # Twig template engine config
     autoescape: html            # Let Twig escape variables by default

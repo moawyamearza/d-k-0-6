@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Pacifico&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+.tech-page1 {
+    display: grid;
+    grid-template-columns: 300px auto;
+    padding: 2em;
+    gap: 1em 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.nav1 {
+    margin-top: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+    text-align: center;
+    
+    font-size: 30px;   
+}
+
+
+.cont {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+
+}
+
+.nav-text{
+    margin: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 26px;
+    border: 2px solid black;
+
+}
+

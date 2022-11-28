@@ -1,5 +1,5 @@
 <div class="footer">
-    <div class = "cop">
+    <div class = "cop" >
         <p>
             copyright © 2021 Moawya. All rights reserved.
         </p>
@@ -8,20 +8,22 @@
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-           <i class="fa fa-github" style="font-size:60px"></i>
-            <span class="sr-only">{{ social.title }}</span>
+           <i class="fa fa-github" style="font-size:36px; color:white; margin:3px"></i>
+            
         </a>
         
         {% endfor %}
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-        {% for socials in pages["_meta"].meta.socials %}
-        <a href="{{ socials.url }}" title="{{ socials.title }}" role="button">
-           <i class="fa fa-instagram" style="font-size:60px"></i>
-            <span class="sr-only">{{ socials.title }}</span>
+        {% for mode in pages["_meta"].meta.mode %}
+        <a href="{{ mode.url }}" title="{{ mode.title }}" role="button">
+           <i class="{{ mode.icon }} icon"></i>
         </a>
         {% endfor %}
         
     </div>
+    
+        
+    
     
 </div>
 

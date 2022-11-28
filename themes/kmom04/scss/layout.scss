@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 3px;
+    background-color: $bakgrundcolor;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Readex Pro', sans-serif;
+    
+}
+
+.main {
+    flex: 1 0 auto;
+    margin: 100px 0 100px;
+}
+
+.social{
+    float: right;
+    color: rgb(255, 255, 255);
+    margin: 0em;
+}
+
+.footer {
+    height: 100px;
+    
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+/* Header */
+
+.header {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+/* Title */
+
+.title {
+    text-decoration: none; 
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: 'Merienda', cursive;
+    flex: auto; 
+    float: left;
+    margin-top: 200px;
+} 
+
+.logo {
+    width: 700px;
+    text-decoration: none; 
+    font-size: 30px;
+    color: rgb(253, 249, 249);
+    font-family: 'Roboto Slab', serif;
+
+
+}
+/* nav */
+.nav{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+/* .das {
+    float: right;
+    margin-left: 120px;
+} */
+
+img {
+    max-width: 100%;
+    }
+
+.cop{
+    float: left;
+    margin: 0em;
+    color: rgb(255, 255, 255);
+
+}   
+
+.dir{
+    text-align: center; 
+    width: 500px;
+    margin-left: 40%;
+
+}
+
+.text{
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+}
+
+
+
+  
