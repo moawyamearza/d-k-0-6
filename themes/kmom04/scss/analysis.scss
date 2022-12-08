@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Pacifico&family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+
 .tech-pageana {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -13,7 +14,7 @@
 }
 
 .box:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .titl {
@@ -50,7 +51,7 @@
 }
 
 
-.text1{
+.text1 {
     font-size: 26px;
     text-align: center;
     vertical-align: middle;
@@ -63,4 +64,29 @@
     grid-row: 3/4;
     text-align: center;
     background-color: rgb(84, 84, 84);
+}
+
+@media (max-width: 767px) {
+    .tech-pageana {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        padding: 2em;
+        gap: 1em 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300PX;
+    }
+}
+@media (max-width: 992px) {
+    .tech-pageana {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        padding: 2em;
+        gap: 1em 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300PX;
+    }
 }
